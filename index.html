@@ -1,0 +1,339 @@
+<html>
+    <head> <link rel="stylesheet" type="text/css" href="index.css"></head>
+<body class=" p-4">
+    <div class="row">
+        <div class="col-12 text-center"><img src="logo1.webp">
+            <h1 class="text-primary"> Gold Jdida </h1>
+        </div>
+    </div>
+
+    <form method="POST" action="form.php" id="form">
+
+
+        <div id="div0" class="card card-body m-2">
+
+            <h3>Conseiller : Bonjour Mme, M, Je me pr sente, je suis Mme, Melle, M. Xxxxxxxxx, de la société Ooredoo
+                Puis-je prendre un peu de votre temps pour vous parler des nouveautés Ooredoo. Auriez-vous quelques
+                minutes m'accorder ?</h3>
+
+            <h4 class="text-primary">
+                Auriez-vous quelques minutes m'accorder ?
+            </h4>
+
+            <div class="row">
+                <div class="col-12 text-center">
+
+                    <button type="button" class="button" id="1_OUI"><a href="merci.html">OUI</a></button>
+                    <button type="button" class="button" id="1_NON" data-toggle="modal" data-target="#small" data-dashlane-rid="f593a73167c79577" data-form-type="other" data-dashlane-label="true"><a href="desolé.html">NON</a></button>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+
+        <div id="script2RDV" class="card card-body m-2 ds-none">
+
+            <h2 class="card-title"> Puis-je avoir une date et une heure votre convenance ?</h2>
+            <h3>
+                <p class="badge badge-pill badge-glow badge-danger">Noter la date et l'heure </p>
+            </h3>
+            <h3>
+                <p class="badge badge-pill badge-glow badge-info">Prise de conge :</span>
+            </h3>
+            <h4>Nous vous remercions Mme/M d'avoir choisi
+                Ooredoo.</h4>
+            <h4>Nous vous souhaitons une excellente journée.
+            </h4>
+            <b>Pour plus d informations, contactez le service client <span class="badge badge-pill badge-glow badge-warning mr-1 mb-1"> au 333 </span>,
+                disponible </b>
+            <span class="badge badge-pill badge-glow badge-warning mr-1 mb-1">7j/7 et 24h/24.</span> <br><br>
+            </p>
+            <h4> <b class="badge badge-pill badge-glow badge-primary mr-1 mb-1">A bientot</b> </h4><br><br>
+            <div class="row">
+                <div class="col-12 text-center"><button type="button" id="btnValidNone" class="button" data-dashlane-rid="ba94740fb372eaea">Valider</button></div>
+            </div>
+        </div>
+
+
+        </div>
+        <div id="C1DIV" class="card card-body m-2" style="display: none;">
+
+            <b class="text">Vous étes bien M/Mme
+                <?php echo $_GET["prenom"]; ?>
+                <?php echo $_GET["nom"]; ?>
+            </b>
+            <div class="alert alert-success" role="alert">
+                <h3> Vérifier sur Mahraba l'offre du client !</h3>
+            </div>
+            <div class="form-group">
+                <h4 class="text-primary">Le client est sur l'offre Dima Ooredoo ou sur l'offre YOOZ ?</h4>
+                <div class="row">
+                    <div class="col-12 text-center">
+
+                        <button type="button" class="btn bg-gradient-success mr-1 mb-1 waves-effect waves-light" id="22_OUI"><a href="merci.html">OUI</a></button>
+                        <button type="button" class="btn bg-gradient-danger mr-1 mb-1 waves-effect waves-light" id="22_NON" data-toggle="modal" data-target="#small" data-dashlane-rid="f593a73167c79577" data-form-type="other" data-dashlane-label="true"><a href="desolé.html">NON</a></button>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+
+        <div id="script5" class="card card-body m-2" style="">
+
+            <h2><b>
+                    <h4 class="text-primary">le client est sur une autre offre ?</h4>
+                    <div class="row">
+                        <div class="col-12 text-center">
+
+                            <button type="button" class="button" id="2_NON" data-dashlane-rid="81b6a13effa23ccb" data-dashlane-label="true" data-form-type="action"><a href="merci.html">OUI</a></button>
+                            <button type="button" class="button" id="2_OUI" data-toggle="modal" data-target="#small" data-dashlane-rid="15fff234b97ccdba" data-form-type="other" data-dashlane-label="true"><a href="desolé.html">NON</a></button>
+                        </div>
+
+
+                    </div>
+
+
+
+        </div>
+        </div>
+        <div class="badge badge-pill badge-light-danger mr-1 mb-1" id="script2cl" style="display:none">
+            <h3>Faire une simple identification et
+                cloturer l'appel !
+            </h3>
+        </div>
+
+        <div id="script3" class="card card-body m-2" style="display: none;">
+            <span>
+                <p>M, Mme Xxxxx, Ooredoo est honoré de vous compter parmi ses clients fidéles. </p>
+                <p>Soucieuse de vous proposer le meilleur, Ooredoo récompense aujourd'hui votre fidéliét en vous donnant
+                    la possibilit de changer gratuitement, vers la nouvelle offre La Gold Jdida .</p>
+            </span>
+            <p>L'offre La <span class="badge badge-pill badge-glow badge-danger mr-1 mb-1">Gold Jdida</span> propose trois forfaits :</p>
+            <p>
+                <strong>
+                    <b>Le forfait mensuel <span class="badge badge-pill badge-glow badge-danger mr-1 mb-1">Gold Jdida 1000 </span>
+                    </b>,
+                </strong> pour 1000 DA vous avez : Durant les 90 premiers jours
+                <br>
+                <span class="badge badge-pill badge-glow badge-warning mr-1 mb-1">
+                    12Go
+                </span>
+                des <span class="badge badge-pill badge-glow badge-success mr-1 mb-1">appels illimités</span> vers Ooredoo <span class="badge badge-pill badge-glow badge-warning mr-1 mb-1">2000Da</span>
+                de crédit. Après 90 jours le forfait internet passe à <span class="badge badge-pill badge-glow badge-info mr-1 mb-1">8 Go</span>.
+            </p>
+            <p><strong><b>Le forfait mensuel <span class="badge badge-pill badge-glow badge-danger mr-1 mb-1">Gold Jdida 1500</span></b>,</strong>pour 1500 DA
+                vous
+                avez : Durant les 90 premiers jours<br>
+                <span class="badge badge-pill badge-glow badge-warning mr-1 mb-1">40Go</span> des <span class="badge badge-pill badge-glow badge-success mr-1 mb-1">appels
+                    illimités</span> vers Ooredoo <span class="badge badge-pill badge-glow badge-warning mr-1 mb-1">3000Da </span> de crédit. Après 90 jours
+                le forfait internet passe à <span class="badge badge-pill badge-glow badge-info mr-1 mb-1">20 Go</span>.
+            </p>
+            <p><strong><b>Le forfait mensuel <span class="badge badge-pill badge-glow badge-danger mr-1 mb-1">Gold Jdida 2000</span></b>,</strong> pour 2000 DA
+                vous
+                avez : Durant les 90 premiers jours<br>
+                <span class="badge badge-pill badge-glow badge-info mr-1 mb-1"> 60Go (le volume internet reste inchangé même Après 90 jours) des
+                </span>
+                <span class="badge badge-pill badge-glow badge-success mr-1 mb-1">appels illimités
+
+                </span> vers Ooredoo
+                <span class="badge badge-pill badge-glow badge-warning mr-1 mb-1">5000Da de crédit.</span>
+            </p>
+            <p>Sachez M/Mme que cette nouveaut vous donnera aussi la possibilité de choisir et d'acheter le forfait qui
+                vous convient parmi une large gamme de forfaits mensuels et journaliers.</p>
+            <p>Vous pouvez aussi renouveler automatiquement votre forfait son expiration condition d'avoir suffisamment
+                de crédit, ainsi que convertir votre forfait en crédit recharge ou en un autre forfait Gold Jdida.</p>
+            <h5> Souhaitez-vous que je vous assiste en ligne afin de changer vers La Gold Jdida, pour profiter de tous
+                ces avantages lors de vos prochains rechargements ? </h5>
+
+            <div class="row">
+                <div class="col-sm-3">
+                    <!-- select -->
+                    <div class="form-group ml-4 pl-4">
+                        <select class="form-control" id="assistance" name="assistance">
+                            <option value="">--- Votre Choix ---</option>
+                            <option value="Oui">OUI</option>
+                            <option value="Non">NON</option>
+                            <option value="deja effectue">Déjà effectuée </option>
+                        </select>
+                    </div>
+                    <div class="col-12 text-center d-none">
+
+                        <button type="button" class="button" id="3_OUI"><a href="merci.html">OUI</a></button>
+                        <button type="button" class="button" id="3_NON">NON</button>
+                        <button type="button" class="button" id="3_EFFECTUE" style="text-transform: uppercase;">Déjà effectuée </button>
+
+                    </div>
+                </div>
+
+            </div> <!-- end script 0 -->
+
+
+        </div>
+        <div id="argu1" class="card card-body m-2" style="display: none;">
+            <div class="alert alert-info">
+                <h5><i class="icon fas fa-info"></i> Vérifiez sur Marhaba que le client ne dispose pas de bonus avant de
+                    faire
+                    l'opération.!</h5>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <button type="button" class="button" id="btnBonus1">Le client n'a pas de Bonus</button>
+                    <button type="button" class="button" id="btnBonus1">Dispose
+                        d'avantages MAXY</button>
+                    <button type="button" class="button" id="btnBonus3">Le client Dispose d'un bonus hors
+                        MAXY</button>
+                </div>
+            </div>
+            <div></div>
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+        <div class="card card-body m-2" id="notifBonus1" style="display: block;">
+            <div class="row">
+                <div class="col-12 text-left">
+                    <strong>Procéder ; l'opération, <span class="align-middle">activer l'Opt-In</span> via le bouton
+                        <span class="align-middle">sur Marhaba</span>, aprés avoir fait le nécessaire, lire ceci :
+                    </strong><br>
+                    Cher M/Mme, il vous suffit de recharger <b>1000DA</b> et plus pour bénéficier des avantages de <span class="badge badge-danger"></b>La Gold Jdida</b></span>. <br>
+                    Sachez M/Mme que votre renouvellement sera automatique et suivra votre premiére recharge, vous avez
+                    aussi la possibilité de revenir votre offre initiale une seule fois dans les <b>30 jours</b> qui
+                    suivent votre changement via le menu <span class="badge badge-warning">*500#</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-left">
+                    <div>
+                        <div class="info-box-content">
+                            <button type="button" class="button" onClick="javascript:identification();"><a href="id.html">Passez à l'identification</a></button>
+                        </div>
+                        <!-- /.info-box-content -->
+                    </div>
+
+                    <div class="callout callout-warning">
+                        <h5>Pour le conseiller </h5>
+
+                        <p class="text-bold text-danger">Si le client dispose des avantages relatifs aux différentes
+                            recharges MAXY, cela n'aura aucun impact et les bonus pourront être transférés vers la GOLD
+                            jdida lors de la migration.</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="card card-body m-2" id="notifBonus2" style="display: block;">
+            <div class="row">
+                <div class="col-12 text-left">
+                    <strong><span class="align-middle">activer l'Opt-In</span> sur <span class="align-middle">sur
+                            Marhaba</span>, et <span class="text-bold text-danger">prévenir le client </span> qu'il doit
+                        consommer son bonus avant de procéder au rechargement, lire ceci : </strong><br>
+                    Cher client, vous avez encore un bonus d'un montant de Donner le montant consommez-le avant, puis
+                    rechargez <b>1000DA</b> et plus pour bénéficier des avantages de <span class="badge badge-danger"></b>La Gold Jdida</b></span>. <br>
+                    Sachez M/Mme que votre renouvellement sera automatique et suivra votre premiére recharge, vous avez
+                    aussi la possibilité de revenir votre offre initiale une seule fois dans les <b>30 jours</b> qui
+                    suivent votre changement via le menu <span class="badge badge-warning">*500#</span>
+                </div>
+            </div>
+            <p>&nbsp;</p>
+
+            <div class="row">
+                <div class="col-12 text-left">
+                    <div>
+                        <button class="button" type="button" onClick="javascript:identification();"><a href="id.html">Passez à l'identification</a></button>
+                        <!-- /.info-box-content -->
+                    </div>
+
+                    <div class="callout callout-warning">
+                        <h5>Pour le conseiller </h5>
+
+                        <p class="text-bold text-danger">Si le client dispose des avantages relatifs aux différentes
+                            recharges MAXY, cela n'aura aucun impact et les bonus pourront être transférés vers la GOLD
+                            jdida lors de la migration.</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <div id="argu2" class="card card-body m-2" style="display: none;">
+            <h3>Le client a déja activé l'Opt-in </h3>
+            <div class="row">
+                <div class="col-12 text-left">
+                    Cher client, sachez qu'il vous suffit s'est présent de recharger <b>1000 DA et plus</b>, afin de bénéficier des avantages de La <span class="badge badge-pill badge-glow badge-danger mr-1 mb-1"></b>Gold Jdida</b></span>. <br>
+                    Sachez M/Mme que votre renouvellement sera automatique et suivra votre premiére recharge, vous avez
+                    aussi la possibilité de revenir votre offre initiale une seule fois dans les <b>30 jours</b> qui
+                    suivent votre changement via le menu <span class="badge badge-pill badge-glow badge-warning mr-1 mb-1">*500#</span>
+
+
+                    <b>Assurez-vous de consommer l'ensemble de votre bonus avant d'effectuer votre rechargement ! </b>
+                </div>
+            </div>
+            <div class="callout callout-warning mt-2 mb-2">
+                <h5>Pour le conseiller </h5>
+
+                <p class="text-bold text-danger">Si le client dispose des avantages relatifs aux différentes recharges
+                    MAXY, cela n'aura aucun impact et les bonus pourront être transférés vers la GOLD Jdida lors de la
+                    migration.</p>
+            </div>
+        </di>
+        
+                    <input class="form-control" type="text" placeholder="Autre" name="Autre">
+                </div>
+                <div class="callout callout-danger">
+                    <b>Cher client, sachez que vous pouvez changer vers <span class="badge badge-danger">La Gold
+                            Jdida</span>, via le code <span class="badge badge-warning">*500#</span> et cette offre est
+                        valable <span class="badge badge-danger">jusqu'au 22/02/2024</span>.<br>
+                        <span class="badge badge-danger">Dépasser ce délai, l'offre ne sera plus disponible </span></b>
+                </div>
+            </div>
+        </div>
+        <div id="identification" class="card card-body border-top border-danger m-2">
+
+            <?php include("identification.php"); ?>
+
+            <div class="row">
+
+                <div class="col-12">
+                    <h3><span class="badge-pill badge-glow badge-info mr-1 mb-1">Prise de congé :</span></h3>
+                    <b>Nous vous remercions Mme/M d avoir choisi Ooredoo.</b> <br><br>
+                    <b>Nous vous souhaitons une excellente journee.</b> <br><br>
+                    <b>Pour plus d informations, contactez le service client <span class="badge-pill badge-glow badge-warning mr-1 mb-1"> au 333</span>,
+                        disponible </b>
+                    <p class="badge-pill badge-glow badge-warning mr-1 mb-1">7j/7 et 24h/24</p>.<br>
+                    <h4><b class="badge-pill badge-glow badge-primary mr-1 mb-1">A bientot</b> </h4><br><br>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-10 text-center"><button class="button">VALIDER</button></div>
+            </div>
+        </div>
+
+
+    </form>
+    <!-- BEGIN: Footer-->
+    <footer class="footer footer-static footer-light">
+        <p class="p"><span class="float-md-left d-block d-md-inline-block mt-25">
+                COPYRIGHT &copy;<?php  $year = date('Y'); echo $year; ?>
+ <a class="text-bold-800 grey darken-2" href="https://Mc-solution.org" target="_blank">MC-Solution,</a>All rights Reserved</span><span class="float-md-right d-none d-md-block">Hand-crafted & Made with<i class="feather icon-heart pink"></i></span>
+            <button class="btn btn-primary btn-icon scroll-top" type="button"><i class="feather icon-arrow-up"></i></button>
+        </p>
+    </footer>
+    <!-- END: Footer-->
+    </html>
